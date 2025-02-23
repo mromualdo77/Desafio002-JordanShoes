@@ -1,0 +1,295 @@
+:root {
+    --background-color: hsl(0, 0%, 100%);
+    --soft-azul-claro: hsl(220, 100%, 98%);
+    --soft-azul: hsl(221, 85%, 72%);
+    --soft-black: hsl(240, 5%, 7%);
+    --body-font: Archivo, sans-serif;
+    --font-valor: "Space+Grotesk", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-width: 100vh;
+    background: #09090B;
+}
+
+main {
+    background-color: var(--background-color);
+    display: flex;
+    height: 1515px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    max-width: 120rem;
+    margin: auto;
+}
+
+.top-fixed-jordan {
+    align-items: center;
+    background-color: var(--soft-azul-claro);
+    display: flex;
+    gap: 10px;
+    height: 64px;
+    justify-content: center;
+    padding: 19px 20px;
+    position: fixed;/*Mantém fixo no topo ao rolar*/
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1000;/* Garante que fique acima de outros elementos */
+}
+
+.top-fixed-jordan p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--body-font);
+    font-weight: 500;
+    /* Corrigido o erro do font-size */
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    color: var(--soft-black);
+}
+
+.hero-image {
+    background-image: url(../img/image-michael-jordan.png);
+    display: block;
+    flex-direction: column;
+    align-items: flex-start;
+    isolation: isolate;
+    padding: 0px;
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    left: 0;
+    margin: auto 0;
+    top: 64px;
+}
+
+.about-jordan {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    left: 352px;
+    top: 94px;
+    padding: 0px;
+    gap: 40px;
+    position: absolute;
+    width: 557px;
+    height: 211px;
+}
+
+.about-jordan .logo-jordan {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    padding: 0px;
+    width: 203px;
+    height: 48px;
+}
+
+.about-jordan .logo-jordan .brand-name {
+    width: 147px;
+    height: 26px;
+    font-family: var(--body-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: var(--background-color);
+}
+
+.about-jordan .jordan-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    height: 123px;
+    width: 557px;
+}
+
+.about-jordan .jordan-info .tagline {
+    color: var(--background-color);
+    font-family: var(--body-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 35px;
+}
+
+.jordan-info .jordan-history {
+    color: var(--background-color);
+    display: flex;
+    align-items: center;
+    font-family: var(--body-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 140%;
+    height: 68px;
+    width: 557px;
+}
+
+.section-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0px;
+    position: absolute;
+    top: 464px;
+    margin: 0px 352px 0px 325px;
+    height: 1051px;
+    width: 1216px;
+    gap: 72px;
+}
+
+.section-heading .heading {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 0px;
+    width: 593px;
+    height: 127px;
+}
+
+.heading h2 {
+    color: var(--soft-black);
+    font-family: var(--body-font);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    height: 35px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.section-heading .heading p {
+    color: var(--soft-black);
+    font-family: var(--body-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.itens {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px 32px;
+    height: 692px;
+    padding: 0px;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 1216px;
+}
+
+.itens .card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    height: 326px;
+    padding: 0px;
+    width: 384px;
+
+}
+
+.card .image-tenis {
+    background: var(--soft-azul-claro);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 200px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    transition: transform .3s ease-in-out;
+}
+
+.image-tenis img:hover {
+    transform: scale(1.1);
+}
+
+.card .detalhes {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    height: 52px;
+    width: 384px;
+}
+
+.card .detalhes p {
+    font-family: var(--body-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    height: 23px;
+}
+
+.card .detalhes .product-category {
+    font-family: var(--body-font);
+    font-size: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: var(--soft-azul);
+    height: 17px;
+    width: 117px;
+}
+
+.card .product-price {
+    background-color: #fff;
+    font-family: var(--font-valor);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--soft-black);
+    display: flex;
+    align-items: center;
+    height: 26px;
+    width: 117px;
+}
+
+footer {
+    background: var(--soft-azul-claro);
+    justify-content: center;
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+footer p {
+    font-family: var(--body-font);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+
+footer a {
+    color: var(--soft-azul);
+    text-decoration: none;
+}
