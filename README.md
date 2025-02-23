@@ -17,29 +17,13 @@ O design do projeto segue uma abordagem moderna e minimalista, destacando os pro
 
 ## 🌍 Deploy
 
-🔗 [*Link do deploy*](#) (Adicione o link do site hospedado aqui)
+🔗 [*Link do deploy*](https://mromualdo77.github.io/Desafio002-JordanShoes/)
 
-## 📂 Como baixar e rodar o projeto
 
-```bash
-# Clone este repositório
-$ git clone https://github.com/seu-usuario/jordan-shoes.git
-
-# Acesse a pasta do projeto
-$ cd jordan-shoes
-
-# Abra o arquivo index.html no navegador
-```
-
-## 📸 Captura de tela
-
-*(Adicione aqui uma imagem ou um GIF do projeto rodando)*
 
 ## 🏆 Créditos
 
 Desafio da comunidade [CodeLab](https://github.com/iuricode/desafios-frontend).\
-Desenvolvido por [**Maria Romualdo**](#) (adicione seu perfil/link do GitHub).
-
----
+Desenvolvido por [**Maria Romualdo**](https://github.com/mromualdo77/Desafio002-JordanShoes)
 
 
