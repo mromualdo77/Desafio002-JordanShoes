@@ -19,8 +19,6 @@ O design do projeto segue uma abordagem moderna e minimalista, destacando os pro
 
 🔗 [*Link do deploy*](https://mromualdo77.github.io/Desafio002-JordanShoes/)
 
-
-
 ## 🏆 Créditos
 
 Desafio da comunidade [CodeLab](https://github.com/iuricode/desafios-frontend).\
