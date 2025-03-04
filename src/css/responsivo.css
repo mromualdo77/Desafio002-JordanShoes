@@ -28,7 +28,6 @@
         padding: 0px;
         width: 704px;
         height: 1081px;
-
         /*Inside auto layout*/
         flex: none;
         order: 1;
@@ -112,7 +111,6 @@
         padding: 0px;
         width: 704px;
         height: 1081px;
-
         /*Inside auto layout*/
         flex: none;
         order: 1;
@@ -161,7 +159,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         height: 400px;
-        max-width: 480px;
+        width: 480px;
     }
 
     .about-jordan {
@@ -169,7 +167,6 @@
         height: 168px;
         left: 25px;
         top: calc(50% - 168px/2);
-
     }
 
     .about-jordan .logo-jordan {
@@ -204,24 +201,20 @@
     }
 
     .section-heading {
-
-
         display: flex;
         flex-direction: column;
         align-items: center;
         padding: 56px 0px 0px 0px;
         gap: 40px;
-        padding-top: 56px;
+        padding: 56px 0 56px 0;
         position: absolute;
         width: 319px;
         height: 2421px;
         left: -240px;
-        top: 465px;
-
+        top: 464px;
     }
 
     .section-heading .heading {
-
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -230,14 +223,11 @@
         height: 94px;
         padding: 0px;
         margin-left: -2px;
-
-
         /* Inside auto layout */
         flex: none;
         order: 0;
         align-self: center;
         flex-grow: 0;
-
     }
 
     .heading h2 {
@@ -245,15 +235,23 @@
         font-size: 20px;
         font-weight: 600;
         line-height: 22px;
-
     }
 
     .section-heading .heading p {
+        width: 319px;
+        height: 60px;
+        font-family: var(--body-font);
+        font-style: normal;
+        font-weight: 400;
         font-size: 14px;
+        line-height: 140%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin: 0;
     }
 
     .itens {
-
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -263,7 +261,7 @@
         position: absolute;
         width: 319px;
         height: 421px;
-        left: 430px;
+        left:-30px;
         top: 208px;
 
         /* Inside auto layout */
@@ -271,9 +269,6 @@
         order: 1;
         align-self: stretch;
         flex-grow: 0;
-
-
-
     }
 
     .itens .card {
@@ -282,11 +277,8 @@
         align-items: flex-start;
         padding: 0px;
         gap: 24px;
-
         width: 319px;
         height: 326px;
-
-
         /* Inside auto layout */
         flex: none;
         order: 0;
