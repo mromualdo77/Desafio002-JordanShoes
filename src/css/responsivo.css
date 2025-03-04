@@ -60,3 +60,69 @@
         width: 80%;
     }
 }
+
+
+@media (max-width: 820px) {
+    .top-fixed-jordan { 
+        position: fixed; 
+        width: 820px;
+    }
+
+    .hero-image{
+        background-image: url(../img/jordan2.png) ;
+        background-size: contain; 
+        background-repeat: no-repeat;    
+        height: 400px; 
+        width: 820px;
+    }
+    .about-jordan {
+        max-width: 70%;
+        left: 30px;
+    }
+
+    .section-heading .heading{
+        margin-left: -350px;
+    }
+
+    .itens {       
+       align-items: flex-start;
+       align-items: first start;
+        display: flex; 
+        flex-direction:column; 
+        flex-wrap: wrap;  
+        margin-left: -430px; 
+        gap:40px 32px;
+        padding: 0px;
+        width: 704px;
+        height: 1081px;
+
+        /*Inside auto layout*/
+        flex: none;
+        order: 1;
+        align-self: center;
+        flex-grow: 0;
+    }
+
+    .card {
+          gap: 24px;    
+        width: 100%;
+    }
+
+    .detalhes {
+        text-align: center;
+    }
+
+    footer{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px;
+    }
+    footer p{
+        text-align: center;
+        width: 80%;
+    }
+}
+
+
