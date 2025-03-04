@@ -33,11 +33,13 @@ main {
     height: 64px;
     justify-content: center;
     padding: 19px 20px;
-    position: fixed;/*Mantém fixo no topo ao rolar*/
+    position: fixed;
+    /*Mantém fixo no topo ao rolar*/
     width: 100%;
     left: 0;
     top: 0;
-    z-index: 1000;/* Garante que fique acima de outros elementos */
+    z-index: 1000;
+    /* Garante que fique acima de outros elementos */
 }
 
 .top-fixed-jordan p {
@@ -55,13 +57,15 @@ main {
 
 .hero-image {
     background-image: url(../img/image-michael-jordan.png);
+    background-size: contain;
+    background-repeat: no-repeat;
     display: block;
     flex-direction: column;
     align-items: flex-start;
     isolation: isolate;
     padding: 0px;
     position: absolute;
-    width: 100%;
+    width: 1920px;
     height: 400px;
     left: 0;
     margin: auto 0;
@@ -276,7 +280,7 @@ main {
 footer {
     background: var(--soft-azul-claro);
     justify-content: center;
-    padding: 30px;
+    padding: 10px;
     text-align: center;
     width: 100%;
 }
