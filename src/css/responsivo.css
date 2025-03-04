@@ -83,17 +83,33 @@
         left: 30px;
     }
 
-    .section-heading .heading {
-        margin-left: -350px;
+    
+
+    .section-heading .heading p {
+        width: 520px;
+        height: 44px;
+        font-family: var(--body-font);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        margin-left: 30px;
+        line-height: 140%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
     }
 
     .itens {
         align-items: flex-start;
-        align-items: first start;
+        align-content: flex-start;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         flex-wrap: wrap;
-        margin-left: -430px;
+        margin-left: 20px;
         gap: 40px 32px;
         padding: 0px;
         width: 704px;
@@ -106,9 +122,16 @@
         flex-grow: 0;
     }
 
-    .card {
+    .itens .card {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+
         gap: 24px;
-        width: 100%;
+        width: 336px;
+        min-width: 336px;
+        height: 326px;
     }
 
     .detalhes {
@@ -120,7 +143,7 @@
         bottom: 0;
         left: 0;
         width: 100%;
-        padding: 20px;
+        padding: 10px;
     }
 
     footer p {
