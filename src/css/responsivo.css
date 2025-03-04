@@ -1,0 +1,62 @@
+@media (max-width: 768px) {
+    .top-fixed-jordan { 
+        position: fixed; 
+        width: 768px;
+    }
+
+    .hero-image{
+        background-image: url(../img/jordan2.png) ;
+        background-size: contain; 
+        background-repeat: no-repeat;    
+        height: 400px; 
+        width: 768px;
+    }
+    .about-jordan {
+        max-width: 30%;
+        left: 50px;
+    }
+
+    .itens {       
+       align-items: flex-start;
+       align-items: first start;
+        display: flex; 
+        flex-direction:column; 
+        flex-wrap: wrap;  
+        margin-left: -70px; 
+        gap:40px 32px;
+        padding: 0px;
+        width: 704px;
+        height: 1081px;
+
+        /*Inside auto layout*/
+        flex: none;
+        order: 1;
+        align-self: center;
+        flex-grow: 0;
+    }
+
+    .card {
+          gap: 24px;    
+        width: 100%;
+    }
+
+    .detalhes {
+        text-align: center;
+    }
+
+    .product-price {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    footer{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px;
+    }
+    footer p{
+        text-align: center;
+        width: 80%;
+    }
+}
